@@ -2,8 +2,6 @@
 
 A modern **Neon-Themed Rock Paper Scissors Game** built using **HTML, CSS, and JavaScript** with glowing UI effects and smooth gameplay interactions.
 
-![Game Preview](screenshots/Photo2.png)
-
 ---
 
 ## 🚀 Features
