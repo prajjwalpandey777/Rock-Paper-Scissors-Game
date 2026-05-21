@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 4vh;
+    padding: 3vh;
+    background-color: #050816;
+    color: #00FFE5;
+    text-align: center;
+    text-shadow: 0 0 0.8rem #00FFE5;
+}
+
+.container{
+    height: 70vh;
+    padding: 2rem;
+    justify-self: center;
+    align-self: center;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+.game{
+    height: 70vmin;
+    width : 80vmin;
+    background-color: #101935;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+    gap: 1.5vmin;
+    border-radius: 0.8rem;
+}
+
+.choices{
+    height: 30vmin ;
+    width: 30vmin;
+    margin-top: 2rem;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.choice{
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+img{
+    height: 25vh ;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.score-panel{
+    height: 20vmin ;
+    width: 71vmin;
+    margin-top: 2rem;
+    border: 0.2rem solid #00FFE5;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #00FFE5;
+    text-shadow: 0 0 0.8rem #00FFE5;
+    align-self: center;
+    justify-self: center;
+}
+
+.score-board{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+#user-score,#comp-score{
+    font-size: 3.5rem;
+}
+
+.msg-container{
+    margin-top: 2rem;
+}
+
+#msg{
+    background-color: #00FFE5;
+    color: black;
+    font-size: 2rem;
+    display: inline;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #00FFE5;
+    text-shadow: 0 0 0.8rem #050816;
+}
